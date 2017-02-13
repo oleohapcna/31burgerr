@@ -1,0 +1,111 @@
+/*::-webkit-input-placeholder {
+  color: #743db0;
+  opacity: 0.9;
+}
+
+::-moz-placeholder {
+  color: #743db0;
+  opacity: 0.9;
+}
+*/
+/*body {
+  margin: 0;
+  height: 100%;
+  background: #422364;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #8e5bc5;
+}
+*/
+/*a {
+  color: #e7572c;
+}
+a:hover, a:focus, a:active {
+  color: #e7572c;
+  text-decoration: underline;
+}*/
+
+.input {
+  font-family: 'Gotham Rounded';
+  font-size: 12px;
+  outline: none;
+}
+.input_address {
+  font-family: 'Gotham Rounded';
+  font-size: 12px;
+  outline: none;
+}
+
+.outer {
+  margin-top: 5%;
+}
+
+/*.container {
+  max-width: 420px;
+  width: 100%;
+  margin: auto;
+}*/
+.container .form {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.input {
+  display: block;
+  width: 200px;
+/*  background: #f3f3f3;*/
+  color: #743db0;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: solid 1px;
+  border-color: transparent;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+.input:focus {
+  color: #8e5bc5;
+  background: #fff;
+  border-color: #e7572c;
+}
+.input_address {
+  display: block;
+  width: 410px;
+  background: #f3f3f3;
+  color: #743db0;
+  padding: 7px 20px;
+  border-radius: 100px;
+  border: solid 1px;
+  border-color: transparent;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.input_address:focus {
+  color: #8e5bc5;
+  background: #fff;
+  border-color: #e7572c;
+}
+.submit {
+  background: #e7572c;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 12px;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 0px 1px 1px #c94017;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+

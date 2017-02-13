@@ -1,0 +1,280 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	background: #ede9ea;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 1635px;
+	background: url(../img/salady.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+}
+.search{
+	width: 315px;
+	height: 40px;
+	border: 1px solid #c4c4c4 ;
+	border-radius: 100px;
+	margin-top: 20px;
+	float: left;
+	background: #fff;
+	color: #c4c4c4;
+	padding-right: 200px;
+	text-align: center;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+}
+.login{
+	width: 120px;
+	height: 35px;
+	border: 1px solid #ff6162 ;
+	border-radius: 100px;
+	margin-top: 20px;
+	float: right;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	color: #ff6162;
+	cursor: pointer;
+
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.banner{
+	width: 100%;
+	height: 850px;
+	/*background: url(../img/banner.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;*/
+}
+.wrap-menu{
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	width: 170px;
+	height: 100px;
+	background: url(../img/logo-small.png);
+	float: left;
+	cursor: pointer;
+}
+.menu{
+	width: 500px;
+	height: 100px;
+	float: right;
+}
+.menu ul li{
+  font-family: 'Gotham Rounded';
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #545454;
+  float: left;
+}
+.menu ul li a{
+	color: #545454;
+  text-decoration: none;
+}
+.menu ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+}
+.active{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.basket{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position : fixed;
+	background: #a8e852;
+	right: 50px;
+	top: 500px;
+	cursor: pointer;
+}
+.basket img{
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.resultbox{
+	width: 800px;
+	height: 660px;
+	background: white;
+	margin: 0 auto;
+}
+.wrapbox{
+	width: 800px;
+	height: auto;
+	background :green;
+	margin: 0 auto;
+}
+.resultbox h1{
+	font-family: 'Gotham Rounded';
+	color: #a8e852;
+	font-size: 22px;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+.box1{
+	width: 800px;
+    height: 135px;
+    margin-top: 24px;
+  	/*background: url(../img/salad1.jpg);*/
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picbox{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	margin: 17px 15px ;
+	float: left;
+}
+
+.namebox h3{
+	float: left;
+	margin: 55px 20px;
+	width: auto;
+	height: auto;
+	font-family: 'Gotham Rounded';
+	color: black;
+	font-size: 15px;
+	
+	
+
+}
+
+.resultbox h2{
+	font-family: 'Gotham Rounded';
+	color: black;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-left: 600px;
+	
+}
+.back{
+	width: 115px;
+    height: 35px;
+	background: #dad8d9;
+	text-align: center;
+	border-radius: 25px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 516px;
+	margin-top: 10px;
+}
+.back h4{
+	font-family: 'Gotham Rounded';
+	color: #b6b4b5;
+	font-size: 16px;
+	padding-top: 9px;
+}
+.back:hover{
+	background: #989797;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+.purches{
+	width: 115px;
+    height: 35px;
+	background: #a8e852;
+	text-align: center;
+	border-radius: 25px;
+	float: left;
+	margin-top: 10px;
+}
+.purches h4{
+	font-family: 'Gotham Rounded';
+	color: white;
+	font-size: 16px;
+	padding-top: 9px;
+}
+.purches:hover{
+	background: #f9523f;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	height: 180px;
+	background: #1c1c1c;
+	color: #fff;
+}
+.logo2{
+	width: 167px;
+	height: 100px;
+	background: url(../img/logo-small.png);
+	float: left;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.menu-footer{
+	width: 500px;
+	height: 100px;
+	float: right;
+	margin-top: 40px;
+}
+.menu-footer ul li{
+  font-family: 'Gotham Rounded';
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+}
+.menu-footer ul li a{
+	color: #fff;
+  text-decoration: none;
+}
+.menu-footer ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+
+}

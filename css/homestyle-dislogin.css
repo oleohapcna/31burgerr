@@ -1,0 +1,480 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 699px;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+.search{
+	width: 315px;
+	height: 40px;
+	border: 1px solid #c4c4c4 ;
+	border-radius: 100px;
+	margin-top: 20px;
+	float: left;
+	background: #fff;
+	color: #c4c4c4;
+	padding-right: 200px;
+	text-align: center;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+}
+.login{
+	width: 97px;
+    height: 30px;
+    border: 1px solid #ff6162;
+    border-radius: 100px;
+    margin-top: 9px;
+	float: right;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	color: #ff6162;
+	cursor: pointer;
+
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrap-menu{
+	width: 100%;
+	height: 92px;
+}
+.logo{
+	width: 170px;
+	height: 100px;
+	background: url(../img/logo-small.png);
+	float: left;
+	cursor: pointer;
+}
+.menu{
+	width: 500px;
+	height: 100px;
+	float: right;
+}
+.menu ul li{
+  font-family: 'Gotham Rounded';
+  font-size: 15px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #545454;
+  float: left;
+}
+.menu ul li a{
+	color: #545454;
+  text-decoration: none;
+}
+.menu ul li:hover{
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.marginleft{
+	margin-left: 70px; 
+}
+.active{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.basket{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position : fixed;
+	background: #a8e852;
+	right: 50px;
+	top: 500px;
+	cursor: pointer;
+}
+.basket img{
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.content-banner{
+	width: 100%;
+	height: 750px;
+}
+.logo-banner{
+	width: 475px;
+	height: 165px;
+    padding-top: 77px;
+	margin: 0 auto;
+}
+.content-banner p{
+	width: 475px;
+	height: auto;
+	margin: 0 auto;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	padding-top: 20px;
+}
+.button-register{
+	width: 158px;
+    height: 47px;
+    background: #a8e852;
+    border-radius: 50px;
+    margin: 30px auto;
+    color: #fff;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+}
+.button-register:hover{
+	width: 300px;
+	height: 70px;
+	font-size: 28px;
+	transition: .3s ease-in-out;
+	line-height: 70px;
+}
+
+.clean-food{
+	width: 100%;
+	height: 400px;
+	background: url(../img/bg-clean-food.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.content-clean-food{
+	width: 500px;
+	height: 400px;
+	float: right;
+	margin-right: 10%;
+}
+.content-clean-food h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: right;
+	font-size: 36px;
+	color: #a8e852;
+	padding-top: 150px;
+}
+.content-clean-food p{
+	font-family: 'Gotham Rounded';
+	text-align: right;
+	font-size: 16px;
+    color: #afafaf;
+    padding-top: 10px;
+}
+
+.menu-promotion{
+	width: 100%;
+	height: 425px;
+	background-color: #2f3538;
+}
+.menu-left{
+	width: 50%;
+	height: 425px;
+	float: left;
+	
+  background-image: url(../img/menu-re1.jpg);
+}
+.menu-right{
+	width: 50%;
+	height: 425px;
+	float: right;
+  background-image: url(../img/menu-re2.jpg);
+}
+.content-promotion{
+	width: 300px;
+	height: 425px;
+	float: right;
+	margin-right: 40px;
+}
+.content-promotion p{
+	font-family: 'Gotham Rounded';
+	text-align: right;
+	font-size: 17px;
+	color: #fff;
+	padding-top: 90px;
+}
+.content-promotion h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: right;
+	font-size: 30px;
+	color: #fff000;
+	padding-top: 10px;
+}
+.content-promotion h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: right;
+	font-size: 48px;
+	color: #fff000;
+	padding-top: 10px;
+}
+.button-buy{
+	width: 85px;
+	height: 35px;
+	border: solid 1px #fff;
+	border-radius: 80px;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+}
+
+.content-recomment{
+	width: 300px;
+	height: 425px;
+	float: right;
+	margin-right: 40px;
+}
+.content-recomment p{
+	font-family: 'Gotham Rounded';
+	text-align: right;
+	font-size: 17px;
+	color: #fff;
+	padding-top: 90px;
+}
+.content-recomment h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: right;
+	font-size: 30px;
+	color: #fff;
+	padding-top: 10px;
+}
+.content-recomment h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: right;
+	font-size: 48px;
+	color: #ff5657;
+	padding-top: 10px;
+}
+.product{
+	width: 100%;
+	height: 1445px;
+	background: #fff;
+}
+.product h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	color: #46b90f;
+	padding-top: 100px;
+}
+.wrap-product{
+	width: 100%;
+	height: 1180px;
+	padding-top: 30px;
+}
+.product-1 {
+	width: 30%;
+	height: 370px;
+	border: solid #c2c2c2 1px;
+	margin-top: 20px;
+	float: left;
+}
+.product-2 {
+	width: 30%;
+	height: 370px;
+	border: solid #c2c2c2 1px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+.favourite{
+	width: 100%;
+	height: 40px;
+}
+.favourite i{
+	color: #c2c2c2;
+	font-size: 22px;
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.favourite i:hover{
+	color: #46b90f;
+	font-size: 28px;
+	transition: .3s ease-in-out;
+
+}
+.pic-product{
+	width: 200px;
+	height: 150px;
+	margin: 10px auto;
+}
+.product-1 p{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	color: #46b90f;
+	padding-top: 10px;
+}
+.product-1 h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+	color: #c2c2c2;
+	padding-top: 10px;
+}
+ .btn-buy{
+	width: 80px;
+	height: 30px;
+		margin: 20px auto;
+	border: solid #c2c2c2 1px;
+	color: #8c8c8c;
+	font-size: 14px;
+	border-radius: 80px;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+
+}
+.product-2 p{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	color: #46b90f;
+	padding-top: 10px;
+}
+.product-2 h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+	color: #c2c2c2;
+	padding-top: 10px;
+}
+
+.cook-salad{
+	width: 100%;
+	height: 500px;
+	background: url(../img/bg-cook-salad.jpg);
+	background-size: 100%;
+}
+.cook-salad h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 170px;
+}
+.cook-salad p{
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	padding-top: 15px;
+}
+.btn-cook{
+	width: 120px;
+	height: 30px;
+	margin: 40px auto;
+	border: solid #fff 1px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 80px;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+
+}
+footer{
+	width: 100%;
+	height: 93px;
+	background: #1c1c1c;
+	color: #fff;
+}
+.logo2{
+	width: 150px;
+    height: 65px;
+	background: url(../img/logo-small.png);
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.menu-footer{
+	float: right;
+}
+.menu-footer ul li{
+  font-family: 'Gotham Rounded';
+  font-size: 15px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-top: 35px;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+}
+.menu-footer ul li a{
+	color: #fff;
+  text-decoration: none;
+}
+.menu-footer ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+
+}

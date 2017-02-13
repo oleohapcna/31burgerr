@@ -1,0 +1,397 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'thai_sans_literegular';
+    src: url('../fonts/thaisanslite_r1-webfont.eot');
+    src: url('../fonts/thaisanslite_r1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thaisanslite_r1-webfont.woff2') format('woff2'),
+         url('../fonts/thaisanslite_r1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('../fonts/montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'trashhandregular';
+    src: url('../fonts/trashhand-webfont.woff2') format('woff2'),
+         url('../fonts/trashhand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	/*background: white;*/
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: #1e1e1e;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 50px;
+	background: #1e1e1e;
+}
+.search{
+	width: 315px;
+	height: 40px;
+	border: 1px solid #c4c4c4 ;
+	border-radius: 100px;
+	margin-top: 20px;
+	float: left;
+	background: #fff;
+	color: #c4c4c4;
+	padding-right: 200px;
+	text-align: center;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+}
+.login{
+	width: 97px;
+    height: 30px;
+    border: 1px solid #ff6162;
+    border-radius: 100px;
+    margin-top: 9px;
+	float: right;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	color: #ff6162;
+	cursor: pointer;
+
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.basket{
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.basket img{
+	width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+/*menu*/
+.menu{
+	width: 100%;
+	height: 135px;
+	background: #191919;
+}
+.menu ul li{
+	width: 19.6%;
+    height: 73px;
+	float: left;
+	list-style: none;
+	font-family: 'trashhandregular';
+	text-align: center;
+	font-size: 22px;
+    padding-top: 52px;
+    color: white;
+}
+.container ul .active{
+	color: #fc381d;
+}
+.container ul li img{
+	width: 160px;
+	height: 162px;
+    margin-top: -79px;
+}
+.register{
+	width: 50%;
+	height: 600px;
+	float: right;
+	margin-top: 9px;
+}
+.register h1{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	font-size: 30px;
+	color: #434343;
+	padding-bottom: 5px;
+}
+.username{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 30px;
+}
+.password{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 30px;
+}
+.fristname{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.lastname{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.birthday{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.age{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.address{
+	width: 100%;
+	height: 80px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	float: right;
+	margin-top: 10px;
+}
+.email{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.mobilenumber{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.favourite-vegetable{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.favourite-friut{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'Gotham Rounded';
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.food-allergies{
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	border: solid 1px #b8b8b8;
+	color: #b8b8b8;
+	font-family: 'thai_sans_literegular';
+	font-size: 18px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+ #check-accept{
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: #fff;
+	border: solid 1px #b8b8b8;
+	margin-top: 20px;
+	border-radius: 90px;
+}
+.register p{
+	color: #b8b8b8;
+	font-family: 'thai_sans_literegular';
+	font-size: 20px;
+	margin-left: 10px;
+	padding-top: 20px;
+	float: left;
+}
+
+.CREATE-ACCOUNT{
+	width: 250px;
+	height: 45px;
+	background: #ff5657;
+	border: 10px;
+	border-radius:50px;
+	color: #fff; 
+	font-family: 'Gotham Rounded';
+	font-size: 20px;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+
+footer{
+	width: 100%;
+	height: 93px;
+	background: #1c1c1c;
+	color: #fff;
+}
+.logo2{
+	width: 150px;
+    height: 65px;
+    background: url(../img/logo-small.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.menu-footer{
+	width: 500px;
+	height: 100px;
+	float: right;
+}
+.menu-footer ul li{
+  font-family: 'Gotham Rounded';
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 35px;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+}
+.menu-footer ul li a{
+	color: #fff;
+  text-decoration: none;
+}
+.menu-footer ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+
+}

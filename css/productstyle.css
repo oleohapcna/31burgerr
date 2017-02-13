@@ -1,0 +1,451 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'thai_sans_literegular';
+    src: url('../fonts/thaisanslite_r1-webfont.eot');
+    src: url('../fonts/thaisanslite_r1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thaisanslite_r1-webfont.woff2') format('woff2'),
+         url('../fonts/thaisanslite_r1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'shorelines_script_boldregular';
+    src: url('../fonts/shorelines_script_bold-webfont.eot');
+    src: url('../fonts/shorelines_script_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/shorelines_script_bold-webfont.woff2') format('woff2'),
+         url('../fonts/shorelines_script_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 749px;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+.search{
+    width: 225px;
+    height: 29px;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    margin-top: 11px;
+    float: left;
+    background: #fff;
+    color: #c4c4c4;
+    padding-right: 156px;
+    padding-left: 16px;
+    text-align: center;
+    font-family: 'Gotham Rounded';
+    font-size: 14px;
+}
+.login{
+ 	width: 120px;
+    height: 32px;
+    border: 1px solid #ff6162;
+    border-radius: 100px;
+    margin-top: 8px;
+    float: right;
+    font-family: 'Gotham Rounded';
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    color: #ff6162;
+    cursor: pointer;
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.banner{
+	width: 100%;
+	height: 700px;
+	background: url(../img/banner-product.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
+.wrap-menu{
+	width: 100%;
+	height: auto;
+}
+.logo{
+	width: 170px;
+	height: 100px;
+	background: url(../img/logo-small.png);
+	float: left;
+	cursor: pointer;
+}
+.menu{
+    width: 386px;	
+    height: 100px;
+	float: right;
+}
+.menu ul li{
+	font-family: 'Gotham Rounded';
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    color: #545454;
+    float: left;
+}
+.menu ul li a{
+	color: #545454;
+  text-decoration: none;
+}
+.menu ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+
+}
+.basket{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position : fixed;
+	background: #a8e852;
+	right: 50px;
+	top: 500px;
+	cursor: pointer;
+}
+.basket img{
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.active_menu{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.content-banner{
+	width: 100%;
+	height: 600px;
+}
+.content-banner h1{
+	width: 475px;
+	height: 45px;
+	margin: 0 auto;
+	font-family: 'Gotham Rounded';
+	font-size: 70px;
+	color: #a8e852;
+	text-align: center;
+	padding-top: 300px;
+}
+.content-banner p{
+	font-family: 'shorelines_script_boldregular';
+	font-size: 18px;
+	color: #312b2c;
+	text-align: center;
+	padding-top: 15px;
+}
+.content-banner h2{
+	
+	margin: 0 auto;
+	font-family: 'Gotham Rounded';
+	font-size: 50px;
+	color: #312b2c;
+	text-align: center;
+	line-height: 20px;
+}
+.wrap-product{
+	width: 100%;
+	height: 1500px;
+	background: #f7f7f7;
+}
+.tab-container{
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 22px;
+    float: left;
+    margin-left: 87px;
+}
+.etabs { 
+	margin: 0; 
+	padding: 0; }
+
+.tab { 
+ 	display: inline-block; 
+ 	zoom:1; 
+ 	*display:inline;
+ 	font-family: 'Gotham Rounded';
+	font-size:26px;
+	color: #a8e852;
+	padding-left: 20px;
+	padding-right: 20px;
+ 	-moz-border-radius: 4px 4px 0 0; 
+ 	-webkit-border-radius: 4px 4px 0 0; 
+ 	text-decoration: none;
+ }
+    .tab a { 
+    	font-size: 16px;
+    	line-height: 2em; 
+    	display: block; 
+    	padding: 0 10px; 
+    	outline: none;
+    	text-decoration: none;
+    	color: #adadad;
+    }
+    .tab a:hover { 
+    	text-decoration: none; 
+    }
+ .tab.active {
+     background: #fff; 
+     padding-top: 6px; 
+     position: relative; 
+     top: 1px; 
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+
+    
+ }
+    .tab a.active { 
+    	font-weight: bold; 
+    	color: #a8e852;
+    }
+.tab-container .panel-container {
+     background: #fff; 
+     border: solid #666 1px; 
+     padding: 10px; 
+     -moz-border-radius: 0 4px 4px 4px; 
+     -webkit-border-radius: 0 4px 4px 4px; 
+ }
+    .panel-container { 
+    	margin-bottom: 10px; 
+    }
+#Meat-diet {
+	background: #fff;
+	height: auto;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.wrap-product-sale{
+	width: 730px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 28px;
+/*    background: pink;*/
+    padding-bottom: 20px;
+}
+.product-1 {
+	width: 30%;
+	height: 370px;
+	border: solid #c2c2c2 1px;
+	margin-top: 20px;
+	float: left;
+
+}
+.product-2 {
+	width: 30%;
+	height: 370px;
+	border: solid #c2c2c2 1px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+.favourite{
+	width: 100%;
+	height: 40px;
+}
+.favourite i{
+	color: #c2c2c2;
+	font-size: 22px;
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.favourite i:hover{
+	color: #46b90f;
+	font-size: 28px;
+	transition: .3s ease-in-out;
+
+}
+.pic-product{
+	width: 200px;
+	height: 150px;
+	margin: 10px auto;
+}
+.product-1 p{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	color: #46b90f;
+	padding-top: 10px;
+}
+.product-1 h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+	color: #c2c2c2;
+	padding-top: 10px;
+}
+ .btn-buy{
+	width: 80px;
+	height: 30px;
+		margin: 20px auto;
+	border: solid #c2c2c2 1px;
+	color: #8c8c8c;
+	font-size: 14px;
+	border-radius: 80px;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+
+}
+.product-2 p{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	color: #46b90f;
+	padding-top: 10px;
+}
+.product-2 h2{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+	color: #c2c2c2;
+	padding-top: 10px;
+}
+.see-more{
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	color: #c2c2c2;
+	clear: left;
+	font-size: 26px;
+	text-align: center;
+	padding-right: 45px;
+	cursor: pointer;
+	padding-top: 50px;
+}
+#Drinking {
+	background: #fff;
+	height: 1380px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+#Dessert {
+	background: #fff;
+	height: 1380px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+footer{
+	width: 100%;
+	height: 93px;
+	background: #1c1c1c;
+	color: #fff;
+	clear: both;
+}
+.logo2{
+	width: 150px;
+    height: 65px;
+    background: url(../img/logo-small.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.menu-footer{
+	float: right;
+}
+.menu-footer ul li{
+    font-family: 'Gotham Rounded';
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 35px;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+}
+.menu-footer ul li a{
+	color: #fff;
+  text-decoration: none;
+}
+.menu-footer ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+}
+.form-group input[type="text"]{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 226px;
+    background: #fff;
+    border: 1px solid #eae7e7;
+    padding: 9px 9px 9px 20px;
+    color: #555;
+    font-family: 'Gotham Rounded';
+    font-size: 12px;
+    border-radius: 100px;
+    position: absolute;
+    left: 855px;
+    top: 768px;
+}
+.form-group input[type="text"]:focus{
+	box-shadow: 0 0 5px #a8e852;
+    border: 1px solid #a8e852;
+}
+

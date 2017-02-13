@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('../fonts/montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'trashhandregular';
+    src: url('../fonts/trashhand-webfont.woff2') format('woff2'),
+         url('../fonts/trashhand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	/*background: white;*/
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: #1e1e1e;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 50px;
+	background: #1e1e1e;
+}
+.search{
+	width: 315px;
+	height: 40px;
+	border: 1px solid #c4c4c4 ;
+	border-radius: 100px;
+	margin-top: 20px;
+	float: left;
+	background: #fff;
+	color: #c4c4c4;
+	padding-right: 200px;
+	text-align: center;
+	font-family: 'Gotham Rounded';
+	font-size: 16px;
+}
+.login{
+	width: 97px;
+    height: 30px;
+    border: 1px solid #ff6162;
+    border-radius: 100px;
+    margin-top: 9px;
+	float: right;
+	font-family: 'Gotham Rounded';
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	color: #ff6162;
+	cursor: pointer;
+
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.basket{
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.basket img{
+	width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+/*menu*/
+.menu{
+	width: 100%;
+	height: 135px;
+	background: #191919;
+}
+.menu ul li{
+	width: 19.6%;
+    height: 73px;
+	float: left;
+	list-style: none;
+	font-family: 'trashhandregular';
+	text-align: center;
+	font-size: 22px;
+    padding-top: 52px;
+    color: white;
+}
+.container ul .active{
+	color: #fc381d;
+}
+.container ul li img{
+	width: 160px;
+	height: 162px;
+    margin-top: -79px;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+.banner img{
+	width: 100%;
+    height: 674px;
+}
+
+.recommend{
+	width: 100%;
+	height: 465px;
+	background: #171717;
+}
+.recommend h1{
+	font-family: 'trashhandregular';
+	color: white;
+	font-size: 27px;
+    letter-spacing: 7px;
+    text-align: center;
+    padding-top: 55px;
+}
+.product{
+	width: 33.3%;
+	height: 335px;
+	/*background: white;*/
+	float: left;
+}
+.product img{
+	width: 320px;
+    height: 320px;
+}
+.product h2{
+	font-family: 'trashhandregular';
+	color: white;
+	letter-spacing: 7px;
+	font-size: 21px;
+    text-align: center;
+    color: #ff3600;
+    margin-top: -50px;
+}
+.product h3{
+	font-family: 'montserratregular';
+	color: white;
+	letter-spacing: 7px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	height: 200px;
+	background: #121212;
+}
+footer .logo{
+	width: 120px;
+	height: 120px;
+	margin-left: 435px;
+}
+.menu-footer{
+	margin-left: 350px;
+	margin-bottom: 36px;
+}
+.menu-footer li{
+	float: left;
+	font-family: 'trashhandregular';
+	color: white;
+	list-style: none;
+	letter-spacing: 5px;
+	margin-right: 25px;
+}
+.footersmall{
+	width: 100%;
+	height: 42px;
+/*	background: red;*/
+	clear: left;
+	margin-top: 5px;
+	border-top: solid 1px #676666;
+}
+.social{
+	width: 200px;
+	height: 42px;
+	float: left;
+}
+.email{
+	width: 200px;
+	height: 42px;
+/*	background: yellow;*/
+	float: right;
+}
+.email h3{
+	float: right;
+	font-family: 'montserratregular';
+	color: white;
+	font-size: 12px;
+	padding-top: 13px;
+}
+.social .imgicon{
+	width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

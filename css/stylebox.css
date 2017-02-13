@@ -1,0 +1,53 @@
+.box{
+	width: 230px;
+    height: 238px;
+    border: 1px solid #dadada;
+/*    background: red;*/
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+.box:hover{
+	transform: scale(1.05);
+	-webkit-box-shadow: 1px 1px 23px 0px rgba(50, 50, 50, 0.24);
+	-moz-box-shadow:    1px 1px 23px 0px rgba(50, 50, 50, 0.24);
+	box-shadow:         1px 1px 23px 0px rgba(50, 50, 50, 0.24);
+    cursor: pointer;
+  	transition: 0.2s ease-in-out;
+}
+.box img{
+	width: 172px;
+    height: 125px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.box h1{
+	font-family: 'Gotham Rounded';
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #46b90f;
+    padding-top: 10px;
+}
+.box p{
+	font-family: 'Gotham Rounded';
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
+    padding-top: 3px;
+}
+.box .btn-buy{
+    width: 77px;
+    height: 25px;
+    margin: 7px auto;
+    border: solid #c2c2c2 1px;
+    color: #8c8c8c;
+    font-size: 14px;
+    border-radius: 80px;
+    font-family: 'Gotham Rounded';
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+}

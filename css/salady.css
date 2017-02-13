@@ -1,0 +1,403 @@
+@font-face {
+	font-family: 'Gotham Rounded light';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	background: #ede9ea;
+}
+.container{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 3000px;
+	background: url(../img/salady.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.wrap-search-login{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+}
+.search{
+width: 225px;
+    height: 29px;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    margin-top: 11px;
+    float: left;
+    background: #fff;
+    color: #c4c4c4;
+    padding-right: 156px;
+    padding-left: 16px;
+    text-align: center;
+    font-family: 'Gotham Rounded';
+    font-size: 14px;
+}
+.login{
+width: 120px;
+    height: 32px;
+    border: 1px solid #ff6162;
+    border-radius: 100px;
+    margin-top: 8px;
+    float: right;
+    font-family: 'Gotham Rounded';
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    color: #ff6162;
+    cursor: pointer;
+}
+.login:hover{
+	background: #ff7879;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+.banner{
+	width: 100%;
+	height: 850px;
+	/*background: url(../img/banner.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;*/
+}
+.wrap-menu{
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	width: 170px;
+	height: 100px;
+	background: url(../img/logo-small.png);
+	float: left;
+	cursor: pointer;
+}
+.menu{
+	width: 500px;
+	height: 100px;
+	float: right;
+}
+.menu ul li{
+  font-family: 'Gotham Rounded';
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #545454;
+  float: left;
+}
+.menu ul li a{
+	color: #545454;
+  text-decoration: none;
+}
+.menu ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+}
+.active{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.basket{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position : fixed;
+	background: #a8e852;
+	right: 50px;
+	top: 500px;
+	cursor: pointer;
+}
+.basket img{
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.box-choose{
+	width: 1000px;
+	height: auto;
+	margin: -39px auto 0px;
+}
+.product1, .product4, .product7, .product10, .product13, .product16{
+	width: 250px;
+	height: 280px;
+	border: 1px solid #e3e2e2;
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.product2, .product5, .product8, .product11, .product14, .product17{
+	width: 250px;
+	height: 280px;
+	border: 1px solid #e3e2e2;
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.product3, .product6, .product9, .product12, .product15, .product18{
+	width: 250px;
+	height: 280px;
+	border: 1px solid #e3e2e2;
+	float: left;
+	margin-top: 15px;
+}
+.picture1{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v1.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture2{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v2.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture3{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v3.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture4{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v4.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture5{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v5.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture6{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v6.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture7{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v7.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture8{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v8.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture9{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v9.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture10{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v10.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture11{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v11.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture12{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v12.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture13{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v13.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture14{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v14.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture15{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v15.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture16{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v16.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture17{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v17.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.picture18{
+	width: 250px;
+    height: 155px;
+	background: url(../img/v18.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce1{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s1.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce2{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s2.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce3{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s3.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce4{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s4.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce5{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s5.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.sauce6{
+	width: 250px;
+    height: 155px;
+	background: url(../img/s6.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.modal-product h4{
+	text-transform: uppercase;
+	font-family: 'Gotham Rounded';
+	font-size: 18px;
+	color: #46b90f;
+	text-align: center;
+	padding-top: 10px;
+}
+.modal-product h5{
+	text-transform: uppercase;
+	font-family: 'Gotham Rounded';
+	font-size: 15px;
+	color: #ccc;
+	text-align: center;
+}
+.modal-product span{
+	text-transform: uppercase;
+	font-family: 'Gotham Rounded';
+	font-size: 12px;
+	color: #ccc;
+	padding-left: 50px;
+	padding-top: 10px;
+	
+}
+footer{
+	width: 100%;
+	height: 93px;
+	background: #1c1c1c;
+	color: #fff;
+	clear: both;
+}
+.logo2{
+	width: 150px;
+    height: 65px;
+    background: url(../img/logo-small.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.menu-footer{
+	float: right;
+}
+.menu-footer ul li{
+    font-family: 'Gotham Rounded';
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 35px;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+}
+.menu-footer ul li a{
+	color: #fff;
+  text-decoration: none;
+}
+.menu-footer ul li:hover{
+  font-weight: bold;
+  
+  transition: .3s ease-in-out;
+}
